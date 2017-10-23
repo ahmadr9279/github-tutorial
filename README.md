@@ -65,7 +65,3 @@ When you `commit` something and you want to undo this action, use the command
 
 
 
-If you want to begin learning how to use github and git follow these 3 simple steps.
-1. Create a [c9](link) account or download [git](link) on your computer. This will be where all your local changes will be located in.In order to be able to use github, you need to have git. c9 can be a replacement if you don't want to download git and does the same thing as it too. 
-2. Create a [github](link) account. This is where all your remote repositories will be located in. If you decided to create a c9 account, you can link it with github. This means that you can log in c9 with your github username and password.
-3.  SSH key is used to connect repos
