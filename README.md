@@ -20,9 +20,9 @@ In order to make a repository, follow these steps below:
 #### 1. `mkdir folder name`
 Before starting to write text or creating files, you need a folder. This command creates a folder and you use it by typing `mkdir-name-you-want-for-your-folder`.
 #### 2. `git init`
-This command allows the directory that you are in to be changed. So this is very important. Just type #### `git init` to initialize your project.  
+This command allows the directory that you are in to be changed. So this is very important. Just type `git init` to initialize your project.  
 #### 3. `touch file name`
-To write text, you need to make a file. To make a file, you need to be in a folder. After that, type `touch file_name` to make a file.
+To write text, you need to make a file. To make a file, you need to be in a folder. After you are in a folder , type `touch file_name` to make a file.
 #### 4. `git add`
 After writing text in the file, you type `git add file_name` to stage the changes.
 ####  5. `git commit -m " "`
@@ -34,13 +34,13 @@ To connect your local repo to your remote repo, do: `git remote add origin url`.
 
 ---
 ## Workflow & Commands
-In this section it will be explained to you which commands that should be constantly used.
+In this section it will be explained to you which commands should be constantly used.
 
 `git status`  
-You use `git status` in order to check if your project is initialized and is ready to be made changes on. You use this by typing `git status`.
+You use `git status` in order to check if your project is staged. You use this by typing `git status`.
 
 `git add`  
-Once you have written text and you want to stage the changes, you would use the command `git add`. In order to use git add you would type `git add _file name you made changes to_`. 
+Once you have written text and you want to stage the changes, you would use the command `git add`. In order to use git add you would type `git add file-name-you-made-changes-to`. 
 
 `git commit`  
 After you are done making all changes to your files/directories, you should take a "snapshot" of them. What this means is that when you do git commit, you can later view all your changes you have just recently made. While viewing those modifications, you will also see a message with them with which you have created. When you use git commit, you also add a meassage in the present tense describing what you did. To use `git commit`, do: `git commit -m "insert message here"`.
@@ -56,13 +56,25 @@ If you want to transfer commits from your local repository to your remote reposi
 Sometimes you might make a __mistake__ while on the __command line__. You might've accidently __changed__ something, and now you want to __undo it__. Well.. You have come to the right place! Here, it will be explained how to __undo__ some of the __most common commands__.
 ### How to Undo a(n): 
 * #### edit  
-git checkout -- filename
+`git checkout -- filename`.
 * ### `add`  
 In order to undo an `add` use the command `git reset HEAD filename`. This will remove the last add you have made.
 * ### `commit` 
 When you `commit` something and you want to undo this action, use the command 
 * ### `push`  
-HI
+* In order to undo `git push` do `git revert fill-in` where fill in represents the last commit you made.
+
+git revert a867b4af b5eee4ca c766c053
+Where a… is the most recent commit
+Where b… is the commit before that
+Where c… is the 3rd-most recent commit
+NOTE: you can also do these one at a time
+
+## Collaboration
+  so.   
+fork & clone, pull requests and pull
+
+
 
 
 
